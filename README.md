@@ -4,8 +4,6 @@ This project provisions a complete AWS infrastructure including networking, comp
 
 ## Architecture Overview
 
-![Architecture Diagram](architecture-diagram.png) *(Consider adding a diagram here)*
-
 The infrastructure includes:
 - **Networking**: VPC with public and private subnets, NAT Gateway, Internet Gateway
 - **Compute**: EC2 instances (public bastion hosts and private application servers)
