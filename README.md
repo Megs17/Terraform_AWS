@@ -18,33 +18,8 @@ The infrastructure includes:
 3. **AWS CLI** configured with credentials
 4. **Python 3.9** (for Lambda function)
 
-## Directory Structure
-├── modules/
-│ └── network_module/ # Networking components
-│ ├── IGW.tf
-│ ├── NAT.tf
-│ ├── outputs.tf
-│ ├── routes.tf
-│ ├── security_group.tf
-│ ├── subnets.tf
-│ ├── vpc.tf
-│ └── variables.tf
-├── lambda_function.py # Lambda source code
-├── lambda_function.zip # Lambda deployment package
-├── main.tf # Root module
-├── variables.tf # Global variables
-├── outputs.tf # Global outputs
-├── provider.tf # AWS provider config
-├── ec2.tf # EC2 instances
-├── rds.tf # RDS database
-├── redis.tf # Redshift cluster
-├── lambda.tf # Lambda function
-├── s3.tf # S3 configuration
-├── lambda_role.tf # IAM roles for Lambda
-└── user_data.sh # EC2 user data script
+
 ## Deployment Instructions
-
-
 ```bash
 terraform init
 terraform plan
