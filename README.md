@@ -19,7 +19,6 @@ The infrastructure includes:
 4. **Python 3.9** (for Lambda function)
 
 ## Directory Structure
-terraform-aws-infra/
 ├── modules/
 │ └── network_module/ # Networking components
 │ ├── IGW.tf
